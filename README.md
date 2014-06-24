@@ -4,7 +4,7 @@
 
 # No Clichés
 
-npm module for checking for clichés in your writing.
+npm module to check for clichés in your writing.
 
 ## Install
 
@@ -15,9 +15,9 @@ npm install no-cliches
 ## Use
 
 ```javascript
-var complexity = require('no-cliches');
+var cliches = require('no-cliches');
 
-var problems = complexity('Writing specs puts me at loose ends.');
+var problems = cliches('Writing specs puts me at loose ends.');
 // problems -> [{ match: "at loose ends", index: 22, offset: 12 }]
 ```
 
