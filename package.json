@@ -1,0 +1,34 @@
+{
+  "name": "no-cliches",
+  "version": "0.0.1",
+  "description": "Find clichés in your writings",
+  "main": "cliches.js",
+  "homepage": "https://github.com/duereg/no-cliches",
+  "author": "Matt Blair",
+  "bugs": {
+    "url": "https://github.com/duereg/no-cliches/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duereg/no-cliches.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node test"
+  },
+  "keywords": [
+    "english",
+    "writing",
+    "prose",
+    "words",
+    "cliches",
+    "clichés",
+    "readability"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "^1.14.3"
+  }
+}
