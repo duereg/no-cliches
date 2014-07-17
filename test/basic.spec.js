@@ -12,7 +12,7 @@ describe('no-cliches', function () {
     });
 
     it('will not escape notice', function () {
-      expect(results[0].match).toEqual('at loose ends');
+      expect(results).toEqual([{ index : 22, offset : 13 }]);
     });
   })
 
