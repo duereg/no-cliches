@@ -13,7 +13,8 @@
     "url": "https://github.com/duereg/no-cliches.git"
   },
   "directories": {
-    "test": "test"
+    "lib": "lib/",
+    "test": "test/"
   },
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node test"
