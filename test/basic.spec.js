@@ -1,22 +1,22 @@
-var cliches = require('../cliches');
-var clichesInSentence = 'Writing specs puts me at loose ends.';
-var goodSentence = 'The good dog jumps over the bad cat.';
+const cliches = require('../cliches');
 
-describe('no-cliches', function () {
+const clichesInSentence = 'Writing specs puts me at loose ends.';
+const goodSentence = 'The good dog jumps over the bad cat.';
 
-  describe('a sentence filled with cliches', function() {
-    var results = null;
+describe('no-cliches', () => {
+  describe('a sentence filled with cliches', () => {
+    let results = null;
 
-    beforeEach(function() {
+    beforeEach(() => {
       results = cliches(clichesInSentence);
     });
 
-    it('will not escape notice', function () {
-      expect(results).toEqual([{ index : 22, offset : 13 }]);
+    it('will not escape notice', () => {
+      expect(results).toEqual([{ index: 22, offset: 13 }]);
     });
-  })
+  });
 
-  it('should not have a problem with a short sentence', function () {
+  it('should not have a problem with a short sentence', () => {
     expect(cliches(goodSentence)).toEqual([]);
   });
 });

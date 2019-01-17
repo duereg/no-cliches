@@ -1,4 +1,4 @@
-var cliches = [
+const cliches = [
   'a chip off the old block',
   'a clean slate',
   'a dark and stormy night',
@@ -698,9 +698,9 @@ var cliches = [
   'young and vibrant',
 ];
 
-var clicheRegex = new RegExp('\\b(' + cliches.join('|') + ')\\b', 'gi');
-var matcher = require("./matcher");
+const clicheRegex = new RegExp(`\\b(${cliches.join('|')})\\b`, 'gi');
+const matcher = require('./matcher');
 
-module.exports = function (text) {
-  return matcher(clicheRegex, text, "clichés");
+module.exports = function clichesMatcher(text) {
+  return matcher(clicheRegex, text);
 };

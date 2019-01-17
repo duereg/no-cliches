@@ -4,7 +4,15 @@
   "description": "Find clichés in your writings",
   "main": "cliches.js",
   "homepage": "https://github.com/duereg/no-cliches",
-  "author": "Matt Blair",
+  "author": {
+    "name": "Matt Blair",
+    "url": "blog.mattblair.co",
+    "email": ""
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=5"
+  },
   "bugs": {
     "url": "https://github.com/duereg/no-cliches/issues"
   },
@@ -29,6 +37,11 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "jasmine-node": "^2.0.1"
+    "jasmine-node": "^2.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3"
   }
 }
