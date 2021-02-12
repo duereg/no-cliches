@@ -369,6 +369,7 @@ let cliches = [
   'like clockwork',
   'like father like son',
   'like taking candy from a baby',
+  'like the plague',
   'like there\'s no tomorrow',
   'lion\'s share',
   'live and learn',
