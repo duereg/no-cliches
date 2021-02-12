@@ -1,6 +1,6 @@
 {
   "name": "no-cliches",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Find clichés in your writings",
   "main": "cliches.js",
   "homepage": "https://github.com/duereg/no-cliches",
@@ -38,11 +38,11 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "jasmine-node": "^2.0.1",
     "eslint": "^5.12.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.12.3"
+    "eslint-plugin-react": "^7.12.3",
+    "jasmine-node": "^3.0.0"
   }
 }

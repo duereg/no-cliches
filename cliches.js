@@ -1,4 +1,4 @@
-const cliches = [
+let cliches = [
   'a chip off the old block',
   'a clean slate',
   'a dark and stormy night',
@@ -699,6 +699,8 @@ const cliches = [
   'young and vibrant',
 ];
 
+// Replace a basic white-space with more-robust white-space matching for new lines, half-space etc.
+cliches = cliches.map(w => w.replace(/ /g, '[\\b\\s\\u200C]*'));
 const clicheRegex = new RegExp(`\\b(${cliches.join('|')})\\b`, 'gi');
 const matcher = require('./matcher');
 
