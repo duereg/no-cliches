@@ -700,7 +700,7 @@ let cliches = [
 ];
 
 // Replace a basic white-space with more-robust white-space matching for new lines, half-space etc.
-cliches = cliches.map(w => w.replace(/ /g, '[\\b\\s\\u200C]*'));
+cliches = cliches.map((w) => w.replace(/ /g, '[\\b\\s\\u200C]*'));
 const clicheRegex = new RegExp(`\\b(${cliches.join('|')})\\b`, 'gi');
 const matcher = require('./matcher');
 
