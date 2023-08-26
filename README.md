@@ -15,9 +15,9 @@ npm install no-cliches
 ## Use
 
 ```javascript
-var cliches = require('no-cliches');
+const cliches = require('no-cliches');
 
-var problems = cliches('Writing specs puts me at loose ends.');
+const problems = cliches('Writing specs puts me at loose ends.');
 // problems -> [{ match: "at loose ends", index: 22, offset: 12 }]
 ```
 
