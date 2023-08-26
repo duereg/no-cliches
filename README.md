@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/duereg/no-cliches.svg?branch=master)](https://travis-ci.org/duereg/no-cliches)
-[![devDependencies](https://david-dm.org/duereg/no-cliches/dev-status.svg)](https://david-dm.org/duereg/no-cliches#info=devDependencies&view=table)
 [![NPM version](https://badge.fury.io/js/no-cliches.svg)](http://badge.fury.io/js/no-cliches)
 
 # No Clichés
