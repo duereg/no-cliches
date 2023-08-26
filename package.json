@@ -1,6 +1,6 @@
 {
   "name": "no-cliches",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Find clichés in your writings",
   "main": "cliches.js",
   "homepage": "https://github.com/duereg/no-cliches",
