@@ -19,7 +19,7 @@ const problems = cliches('Writing specs puts me at loose ends.');
 // problems -> [{ match: "at loose ends", index: 22, offset: 12 }]
 ```
 
-##See Also
+## See Also
 
 [Concise Writing](http://grammar.ccc.commnet.edu/grammar/concise.htm)
 
